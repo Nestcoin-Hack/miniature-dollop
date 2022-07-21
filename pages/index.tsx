@@ -53,7 +53,7 @@ const Home: NextPage = () => {
     <div className="flex min-h-screen flex-col md:justify-center md:items-center py-2">
       <Web3ModalProvider value={web3ModalRef}>
         <Head>
-          <title>Zazoo</title>
+          <title>Rarible</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
