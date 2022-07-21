@@ -66,7 +66,7 @@ const Home: NextPage = () => {
             owner = {owner} 
             setOwnner = {setOwnner}
           />
-          <p className="mt-5 sm:mt-24 text-2xl text-center">
+          <h1 className="mt-5 sm:mt-24 text-5xl text-center font-bold">
             Zazoo is your one-stop hub for all your favourite products and services.
           </p>
 
