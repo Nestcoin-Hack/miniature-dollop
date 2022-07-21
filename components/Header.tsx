@@ -63,7 +63,7 @@ const Header = ({
       <div className='flex justify-center sm:justify-between md:items-center flex-wrap'>
         <div className='flex items-end'>
           <Link href="/">
-            <a className="text-6xl font-bold text-sky-600">Zazoo</a>
+            <a className="text-4xl font-bold text-sky-600">Rarible</a>
           </Link>
           { (isWalletConnected && walletAddress == owner) && <Link href="/dashboard">
               <a className='text-xl font-bold'>dashboard</a>
@@ -73,7 +73,7 @@ const Header = ({
         {!isWalletConnected ? 
             <div className='flex sm:inline-flex justify-center w-full sm:w-fit items-center flex-wrap mt-2 sm:mt-0'>
               <button onClick={connectWallet}
-                className='mt-4 sm:mt-0 rounded-md ring-2 ring-inset-1 ring-sky-600 px-2 bg-sky-100 hover:bg-sky-600 hover:text-white'
+                className='mt-4 sm:mt-0 rounded-md ring-2 ring-inset-1 ring-sky-600 p-2 bg-sky-100 hover:bg-sky-600 hover:text-white'
               >
                 Connect Wallet
               </button> 
